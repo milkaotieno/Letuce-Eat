@@ -75,6 +75,38 @@ li {
     font-size: small;
     font-style: italic;
 }
+.menu>h2 {
+    color: #F19201;
+    text-align: center;
+}
+
+.menu>p {
+    text-align: center;
+    font-size: small;
+    font-style: italic;
+}
+.square {
+    align-items: center;
+    justify-content: space-between;
+    padding: 5em;
+    margin-left: 20%;
+    margin-right: 205;
+}
+
+.imenu {
+    height: 150px;
+    display: flex;
+    background-color: white;
+}
+
+.imenu .order {
+    margin-top: 50px;
+    color: black;
+}
+.chapati .price {
+    color: coral;
+    margin-top: 45px;
+}
 
 
 /* .serviceboxes {
