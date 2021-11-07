@@ -1,4 +1,15 @@
-body {
-    /* background-color:#F19201; */
-    
-}
+/*body {
+
+    background-color:#F19201;
+ } */
+.sectionone {
+        background-image: url("pictures/image2.png");
+        /* background-size:cover
+        background-repeat: no-repeat;  */
+    } 
+
+    .sectionfive {
+        background-image: url("pictures/image8.png");
+       /* // background-size:cover
+        background-repeat: no-repeat;  */
+    }
