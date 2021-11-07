@@ -53,4 +53,13 @@ background-color:#F19201;
        width: 100px;
        border: #F19201; /*to be corrected to the right color*/
     }
+    .services>h2 {
+        color: #F19201;
+        text-align: center;
+    }
+    .services>p{
+        text-align: center;
+        font-size: small;
+        font-style: italic;
+    }
     
