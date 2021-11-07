@@ -1,6 +1,6 @@
 body {
 
-    background-color:grey;
+    background-color:lightgrey;
     font-family: 'Roboto', sans-serif;
 }
  /*
@@ -44,7 +44,7 @@ background-color:#F19201;
    color: white;
    height: 30px;
    width: 100px;
-   border: #F19201   ;
+   border: #F19201;
 }
 #book {
     background-color:none;
@@ -52,6 +52,21 @@ background-color:#F19201;
        height: 30px;
        width: 100px;
        border: #F19201; /*to be corrected to the right color*/
+    }
+    /*section two styling begins here*/
+    .sectiontwo button{
+    font-size: 2em;
+    height: 40px;
+    width: 40px;
+    border-radius : 100%;
+    background-color:#F6B400;
+    color: white;       
+    border: #F19201;
+    display: inline;
+        
+        /* 0px 20px 0px 20px;
+        height: 50px;
+        width: 120px; */
     }
     .services>h2 {
         color: #F19201;
@@ -62,4 +77,15 @@ background-color:#F19201;
         font-size: small;
         font-style: italic;
     }
+    .service {
+        border:1px solid #999999;
+        color:#6f6f6f;
+        font-size:10px;
+        display:block;
+        float:left;
+        width:100%;
+        display: block; 
+        position: relative;
+        }
+        
     
