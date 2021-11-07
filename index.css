@@ -1,15 +1,31 @@
-/*body {
+/* /*body {
 
     background-color:#F19201;
- } */
+ 
 .sectionone {
         background-image: url("pictures/image2.png");
         /* background-size:cover
-        background-repeat: no-repeat;  */
+        background-repeat: no-repeat;  
     } 
 
     .sectionfive {
         background-image: url("pictures/image8.png");
        /* // background-size:cover
-        background-repeat: no-repeat;  */
-    }
+        background-repeat: no-repeat;  
+    } */
+    .nav{
+        display: flex;
+      
+      
+      
+      }
+      ul{
+        margin-left: 550px;
+        list-style: none;
+      }
+      li{
+        padding: 10px 30px ;
+        display: inline-block;
+      
+      }
+      
