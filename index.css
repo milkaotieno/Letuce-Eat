@@ -105,7 +105,7 @@ li {
         } */
 .serviceboxes {
 display: flex;
-  padding-left: 75px;
+  padding-left: 30px;
   justify-content: space-evenly;
   flex-direction: row;
 }
@@ -139,10 +139,9 @@ display: flex;
 }
 
 .service3 {
-    border: 1px solid #999999;
+    border: px solid #999999;
     text-align: center;
     float: left;
-    width: auto;
     display: inline;
     position: relative;
     background-color: white;
