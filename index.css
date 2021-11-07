@@ -29,6 +29,9 @@ li {
 .premium>p {
     color: white;
     font-weight: bold;
+    padding-right: 15rem;
+    margin-left: 80px;
+    font-size: 2rem;
 }
 
 #firstbutton {
@@ -37,13 +40,14 @@ li {
     height: 30px;
     width: 100px;
     border: #F19201;
+    margin-left: 80px;
 }
 
 #bookbutton {
     color: white;
     height: 30px;
     width: 100px;
-    border: #F19201;
+   
     background-color: none;
     /*to be corrected to the right color*/
 }
@@ -103,6 +107,11 @@ li {
         padding-left: 100px;
         justify-content: space-evenly;
         flex-direction: row;
+    }
+
+    .sectionthree {
+        display: flex;
+        float: left;
     }
 
 /* .square {
