@@ -4,18 +4,7 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-/*
-.sectionone {
-        background-image: url("pictures/image2.png");
-        /* background-size:cover
-        background-repeat: no-repeat;  
-    } 
 
-    .sectionfive {
-        background-image: url("pictures/image8.png");
-       /* // background-size:cover
-        background-repeat: no-repeat;  
-    } */
 .nav {
     display: flex;
     flex-direction: row;
@@ -150,6 +139,18 @@ display: flex;
     /* margin-block-end: 10px; */
 
 }
+
+.sectionone {
+    background-image: url("pictures/image2.png");
+    background-size:cover; 
+    background-repeat: no-repeat;  
+    
+} 
+.sectionfive {
+    background-image: url("pictures/image8.png");
+   background-size:cover;
+    background-repeat: no-repeat;  
+} 
 
 /*.serviceboxes {
         
