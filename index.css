@@ -1,9 +1,10 @@
 body {
 
-    background-color:lightgrey;
+    background-color: lightgrey;
     font-family: 'Roboto', sans-serif;
 }
- /*
+
+/*
 .sectionone {
         background-image: url("pictures/image2.png");
         /* background-size:cover
@@ -35,57 +36,144 @@ li {
     display: inline-block;
 
 }
+
 .premium>p {
     color: white;
     font-weight: bold;
 }
+
 #firstbutton {
-background-color:#F19201;
-   color: white;
-   height: 30px;
-   width: 100px;
-   border: #F19201;
+    background-color: #F19201;
+    color: white;
+    height: 30px;
+    width: 100px;
+    border: #F19201;
 }
+
 #book {
-    background-color:none;
-       color: white;
-       height: 30px;
-       width: 100px;
-       border: #F19201; /*to be corrected to the right color*/
-    }
-    /*section two styling begins here*/
-    .sectiontwo button{
+    background-color: none;
+    color: white;
+    height: 30px;
+    width: 100px;
+    border: #F19201;
+    /*to be corrected to the right color*/
+}
+
+/*section two styling begins here*/
+.sectiontwo button {
     font-size: 2em;
     height: 40px;
     width: 40px;
-    border-radius : 100%;
-    background-color:#F6B400;
-    color: white;       
+    border-radius: 100%;
+    background-color: #F6B400;
+    color: white;
     border: #F19201;
     display: inline;
-        
-        /* 0px 20px 0px 20px;
+    align-items: center;
+
+    /* 0px 20px 0px 20px;
         height: 50px;
         width: 120px; */
-    }
-    .services>h2 {
-        color: #F19201;
-        text-align: center;
-    }
-    .services>p{
-        text-align: center;
-        font-size: small;
-        font-style: italic;
-    }
-    .service {
+}
+
+.services>h2 {
+    color: #F19201;
+    text-align: center;
+}
+
+.services>p {
+    text-align: center;
+    font-size: small;
+    font-style: italic;
+}
+
+
+/* .serviceboxes {
         border:1px solid #999999;
-        color:#6f6f6f;
         font-size:10px;
         display:block;
         float:left;
         width:100%;
-        display: block; 
+        display: inline; 
         position: relative;
+        display: flex;
+        background-color: white;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-block-end: auto;
+
+        } */
+.serviceboxes {
+display: flex;
+  padding-left: 75px;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+.serviceboxes #food{
+    font-style: italic;
+}
+.service1 {
+    border: 1px solid #999999;
+    text-align: center;
+    float: left;
+    display: inline;
+    position: relative;    
+    background-color: white;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-block-end: auto;
+
+}
+
+.service2 {
+    border: 1px solid #999999;
+    text-align: center;
+    float: left;
+    display: inline;
+    position: relative;
+     background-color: white;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-block-end: auto;
+
+}
+
+.service3 {
+    border: 1px solid #999999;
+    text-align: center;
+    float: left;
+    width: auto;
+    display: inline;
+    position: relative;
+    background-color: white;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* margin-block-end: 10px; */
+
+}
+
+/*.serviceboxes {
+        
+            text-align: justify;
+            min-width: 412px;
+            border: 1px solid green;
+            width: 80%; /* it changes by screen size actually 
+            height: 90px;
+            padding: 5px;
         }
         
-    
+        .serviceboxes:after {
+            content: '';
+            display: inline-block;
+            width: 100%;
+        }
+        .service {
+            display: inline-block;
+        }
+        .box {
+            border: 1px solid #DDD;
+            width: 80px;
+            height: 80px;
+            margin: 0 auto;
+        
+    }*/
