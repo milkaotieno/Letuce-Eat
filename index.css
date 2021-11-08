@@ -264,8 +264,13 @@ li {
 .reviews {
     margin-left: 120px;
 
+
     color: white;
     background-color: black;
+}
+.reviews p {
+    padding-right: 15rem;
+    margin-left: 80px;
 }
 
 .imageone {
