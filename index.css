@@ -4,6 +4,14 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+/* section one styling starts here */
+.sectionone {
+    background-image: url("pictures/image2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 30em;
+
+}
 
 .nav {
     display: flex;
@@ -67,22 +75,9 @@ li {
     margin-left: 80px;
 }
 
-#bookbutton {
-    color: white;
-    height: 30px;
-    width: 100px;
-    border: #F19201;
-    background-color: Transparent;
-
-
-    /* cursor:pointer;
-    overflow: hidden;  */
-}
-
 /*section two styling begins here*/
 .sectiontwo {
     height: 20em;
-
 }
 
 .sectiontwo button {
@@ -109,151 +104,21 @@ li {
 
 .services>p {
     text-align: center;
-    font-size: small;
+    font-size: medium;
     font-style: italic;
-    
     margin-bottom: 18px;
+    font-weight: normal;
 }
 
-#price {
-    color: #F19201;
-     margin-top: 45px;
-}
-
-.sectionthree {
-    display: flex;
-    height: 30em;
-    content: inherit;
-    margin-right: 0;
-}
-
-
-.menu>h2 {
-    color: #F19201;
-    text-align: center;
-}
-
-.menu>p {
-    text-align: center;
-    font-size: small;
-    font-style: italic;
-}
-
- .firstmenu {
-
-    display: flex;
-    padding-left: 100px;
-    justify-content: space-evenly;
-    flex-direction: row;
-}
-
-.secondmenu {
-    display: flex;
-    padding-left: 100px;
-    justify-content: space-evenly;
-    flex-direction: row;
-}
-
-.chapati {
-    background-color: white;
-    display: flex;
-    height: 250px;
-    width: 480px;
-    margin-left: 1em;
-    
-}
-
-.beef {
-    background-color: white;
-    display: flex;
-    height: 250px;
-    width: 480px;
-    margin-left: 1em;
-    
-}
-.chicken {
-    background-color: white;
-    display: flex;
-    height: 250px;
-    width: 480px;
-    margin-left: 1em;
-    align-items: center;
-    
-}
-.rice {
-    background-color: white;
-    display: flex;
-    height: 250px;
-    width: 480px;
-    margin-left: 1em;
-    
-}
-.imenu {
-    padding: 2em;
-}
-.order {
-    height: 3em;
-    width: 8em;
-    border: none;
-}
-
-/*
-.sectionthree {
-    display: flex;
-    float: left;
-    justify-content: space-between;
-    margin-top: 60px;
-    height: 25em;
-
-}
-
-/* .square {
-    align-items: center;
-    justify-content: space-between;
-    padding: 5em;
-    margin-left: 20%;
-    margin-right: 205; 
-
-
-.imenu {
-    height: 150px;
-    display: flex;
-    background-color: white;
-}
-
-.imenu .order {
-    margin-top: 50px;
-    color: black;
-}
-.chapati .price {
-    
-}
-
-
-/* .serviceboxes {
-        border:1px solid #999999;
-        font-size:10px;
-        display:block;
-        float:left;
-        width:100%;
-        display: inline; 
-        position: relative;
-        display: flex;
-        background-color: white;
-        flex-direction: row;
-        justify-content: space-around;
-        margin-block-end: auto;
-
-        } */
 .serviceboxes {
     display: flex;
-    padding-left: 30px;
     justify-content: space-evenly;
-    flex-direction: row;
+    
 }
 
 .serviceboxes #food {
     font-style: italic;
+    font-size: small;
 }
 
 .service1 {
@@ -292,42 +157,123 @@ li {
 
 }
 
-.sectionone {
-    background-image: url("pictures/image2.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 30em;
 
-}
-
-
+/* section four starts here */
 
 .sectionfour {
-     height: 700px; 
-   
+    height: 700px;
+
+}
+
+.menu>h2 {
+    color: #F19201;
+    text-align: center;
+    height: 1em;
+}
+
+.menu>p {
+    text-align: center;
+    font-size: medium;
+    font-style: italic;
+    margin-bottom: 18px;
+    font-weight: normal;
+}
+
+#price {
+    color: #F19201;
+    margin-top: 45px;
+}
+.firstmenu {
+
+    display: flex;
+    padding-left: 100px;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.secondmenu {
+    display: flex;
+    padding-left: 100px;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.chapati {
+    background-color: white;
+    display: flex;
+    height: 250px;
+    width: 480px;
+    margin-left: 1em;
+
+}
+
+.beef {
+    background-color: white;
+    display: flex;
+    height: 250px;
+    width: 480px;
+    margin-left: 1em;
+
+}
+
+.chicken {
+    background-color: white;
+    display: flex;
+    height: 250px;
+    width: 480px;
+    margin-left: 1em;
+    align-items: center;
+
+}
+
+.rice {
+    background-color: white;
+    display: flex;
+    height: 250px;
+    width: 480px;
+    margin-left: 1em;
+
+}
+
+.imenu {
+    padding: 2em;
+}
+
+.order {
+    height: 3em;
+    width: 8em;
+    border: none;
 }
 
 
+/*section three*/
+.sectionthree {
+    display: flex;
+    height: 30em;
+    content: inherit;
+    margin-right: 0;
+}
 
 .reviews {
-    /* margin-left: 120px; */
-    /*  */
-
     color: white;
     background-color: black;
-    width: 50%; 
+    width: 50%;
+    text-align: center;
 
 }
 
 .reviews p {
-        margin-left: 80px;
-    }
-.reviews h3 {
-    padding-right: 15rem;
     margin-left: 80px;
 }
+
+.reviews h3 {
+  
+  font-size: x-large;
+    margin-left: 80px;
+}
+
 .reviews h4 {
-    padding-right: 15rem;
+    
     margin-left: 80px;
 }
 
@@ -361,40 +307,14 @@ li {
 .bookings>#moringa {
     font-style: italic;
 }
+#bookbutton {
+    color: white;
+    height: 30px;
+    width: 100px;
+    border: #F19201;
+    background-color: Transparent;
 
-/* .sectiontwo {
-    height: 22em;
-}
 
-.sectionthree {
-    height: 25em;
+    /* cursor:pointer;
+    overflow: hidden;  */
 }
-
-.sectionfour {
-    height: 20em;
-}
-/*.serviceboxes {
-        
-            text-align: justify;
-            min-width: 412px;
-            border: 1px solid green;
-            width: 80%; /* it changes by screen size actually 
-            height: 90px;
-            padding: 5px;
-        }
-        
-        .serviceboxes:after {
-            content: '';
-            display: inline-block;
-            width: 100%;
-        }
-        .service {
-            display: inline-block;
-        }
-        .box {
-            border: 1px solid #DDD;
-            width: 80px;
-            height: 80px;
-            margin: 0 auto;
-        
-    }*/
