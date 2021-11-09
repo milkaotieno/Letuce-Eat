@@ -20,12 +20,12 @@ body {
     color: black;
     background: rgba(0, 0, 0, 0.5);
     box-shadow: black;
-    margin-left: 30px;
+     height: 3em;
 
 }
 
 ul {
-    margin-left: 450px;
+    /* margin-left: 450px; */
     list-style: none;
     color: black;
 }
@@ -76,9 +76,9 @@ li {
 }
 
 /*section two styling begins here*/
-.sectiontwo {
-    height: 20em;
-}
+
+    /* height: 20em; */
+
 
 .sectiontwo button {
     font-size: 2em;
@@ -111,6 +111,8 @@ li {
 }
 
 .serviceboxes {
+    width: 75%;
+    margin: 0 auto;
     display: flex;
     justify-content: space-evenly;
     
@@ -121,15 +123,15 @@ li {
     font-size: small;
 }
 
-.service1 {
+.serviceboxes>div {
     border: 1px solid #999999;
     text-align: center;
-    display: inline;
-    position: relative;
     background-color: white;
-    flex-direction: row;
-    justify-content: space-evenly;
-    margin-block-end: auto;
+    padding: 1.2rem 1.5rem;
+}
+
+/* .service1 {
+   
 
 }
 
@@ -153,9 +155,9 @@ li {
     background-color: white;
     flex-direction: row;
     justify-content: space-evenly;
-    /* margin-block-end: 10px; */
+    margin-block-end: 10px;
 
-}
+} */
 
 
 /* section four starts here */
@@ -186,23 +188,32 @@ li {
 .firstmenu {
 
     display: flex;
-    padding-left: 100px;
+    /* padding-left: 100px; */
     justify-content: space-evenly;
     flex-direction: row;
 }
 
 .secondmenu {
     display: flex;
-    padding-left: 100px;
+    /* padding-left: 100px; */
     justify-content: space-evenly;
     flex-direction: row;
 }
+
+/* .menulist>div {
+
+    background-color: white;
+    display: flex;
+    height: 250px;
+    width: 550px;
+    margin-left: 1em;
+} */
 
 .chapati {
     background-color: white;
     display: flex;
     height: 250px;
-    width: 480px;
+    width: 550px;
     margin-left: 1em;
 
 }
@@ -211,7 +222,7 @@ li {
     background-color: white;
     display: flex;
     height: 250px;
-    width: 480px;
+    width: 550px;
     margin-left: 1em;
 
 }
@@ -220,9 +231,8 @@ li {
     background-color: white;
     display: flex;
     height: 250px;
-    width: 480px;
+    width: 550px;
     margin-left: 1em;
-    align-items: center;
 
 }
 
@@ -230,7 +240,7 @@ li {
     background-color: white;
     display: flex;
     height: 250px;
-    width: 480px;
+    width: 550px;
     margin-left: 1em;
 
 }
@@ -249,12 +259,11 @@ li {
 /*section three*/
 .sectionthree {
     display: flex;
-    height: 30em;
-    content: inherit;
+    /* height: 30em; */
     margin-right: 0;
 }
 
-.reviews {
+ .reviews {
     color: white;
     background-color: black;
     width: 50%;
@@ -262,26 +271,40 @@ li {
 
 }
 
-.reviews p {
-    margin-left: 80px;
+.reviews h3::after {
+    content: "";
+    display: block;
+    height: .2rem;
+    width: 2rem;
+    background-color: white;
+    margin: 1.2rem auto;
+    margin-top: 0em;
 }
-
 .reviews h3 {
   
-  font-size: x-large;
+    font-size: x-large;
+      margin-left: 80px;
+      margin-bottom: 0em;
+  }
+  .reviews h4 {
+    
+    margin-bottom: 100px;
     margin-left: 80px;
+} 
+#author {
+    margin-top: 100px;
 }
 
-.reviews h4 {
-    
+.reviews p {
     margin-left: 80px;
+    
 }
+
+
+
 
 .imageone {
-    /* margin-right: 250px; */
-    background-position-x: inherit;
-    height: 480px;
-    width: 480px;
+    width: 50%;
 }
 
 .sectionfive {
@@ -295,17 +318,16 @@ li {
 
 .footer {
     background-color: black;
-    text-align: center;
     color: white;
     height: 3em;
-    margin-bottom: 0rem;
-    margin-block-end: 0rem;
-    align-items: baseline;
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .bookings>#moringa {
     font-style: italic;
+
 }
 #bookbutton {
     color: white;
