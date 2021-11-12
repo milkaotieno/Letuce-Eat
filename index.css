@@ -127,10 +127,10 @@ li {
 }
 
 .serviceboxes {
-    width: 75%;
-    margin: 0 auto;
+    width: 85%;
+    margin: auto;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     
 }
 
