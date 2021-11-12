@@ -15,7 +15,7 @@ body {
 
 .nav {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     color: black;
     background: rgba(0, 0, 0, 0.5);
@@ -48,6 +48,18 @@ li {
     width: 100px;
 
 }
+.limage {
+    margin-top: 3%;
+    align-items: left;
+    
+}
+.descrip {
+    display: flex;
+    margin-top: 3%;
+}
+#logoname {
+    margin-top: 25%;
+}
 
 #moringa1 {
     background-color: #F19201;
@@ -64,6 +76,7 @@ li {
     padding-right: 15rem;
     margin-left: 80px;
     font-size: 2rem;
+    margin-top: 8%;
 }
 
 #firstbutton {
@@ -339,4 +352,9 @@ li {
 
     /* cursor:pointer;
     overflow: hidden;  */
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
 }
